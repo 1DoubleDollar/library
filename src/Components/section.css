@@ -1,0 +1,50 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionCard{
+    display: flex;
+    gap:10px;
+    flex-wrap :wrap;
+}
+.cardForm{
+    min-width: 200px;
+    min-height: 200px;
+    margin :0px;
+    padding: 10px;
+    background-color: #c9c9c9;
+    color: #2d2d2d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 15px #8b8b8b;
+    border-radius: 15px;
+    
+    position: absolute;
+    z-index: 3;
+}
+input{
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #000
+}
+.formButton{
+    display: inline-flex;
+    justify-content: center;
+    gap : 25px;
+}
+.submitButton,.cancelButton{
+    border: none;
+    border-radius: 5px;
+    min-width: 80px;
+    min-height: 40px;
+    color:white;
+    background-color: red;
+}
+.submitButton{
+    background-color:blue
+}
+.submitButton:hover{
+    background-color:rgb(35, 118, 35);;
+}

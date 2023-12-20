@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-family: Tangerine;
+    font-size: 36px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid;
+    margin: 5px;
+    padding: 15px
+}
+.nav-button{
+    background-color: #fff;
+    border : none;
+    font-family: Roboto;
+    font-size:18px;
+    font-weight: 500;
+}
